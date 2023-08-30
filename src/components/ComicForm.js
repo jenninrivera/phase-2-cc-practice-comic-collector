@@ -1,7 +1,7 @@
-function ComicForm() {
+function ComicForm({addNewComic}) {
   return (
 
-    <form className="comic-form">
+    <form onSubmit={addNewComic} className="comic-form">
 
       <h2>Add A New Issue</h2>
 
